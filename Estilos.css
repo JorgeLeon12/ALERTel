@@ -15,6 +15,20 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	height:130px;
 	width:100%;
 }
+.Nombre{
+	float:left;
+	margin-top:25px;
+	color:#FFFFFF;
+}
+.Logos{
+	float:right;
+	margin-top:25px;
+}
+.Menu{
+	background-color:#2a2a2a;
+	height:40px;
+	border-bottom:#f4d000 solid 8px;
+}
 .MenuOff{
 	height:100%;
 	width:200px;
@@ -27,6 +41,11 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	display:inline-block;
 	padding-top:11px;
 	padding-bottom:11px;
+}
+.Banner{
+	width:75%;
+	padding-top:25px;
+	padding-bottom:5px;
 }
 .Cuerpo{
 	color:white;
@@ -81,5 +100,8 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	display:inline-block;
 	width:600px;
 }
-
-
+.CopyRigth{
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-bottom:10px;
+}
