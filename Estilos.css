@@ -6,6 +6,15 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	outline:0;
 	
 }
+.Global{
+	background-color:#000000;
+}
+.Encabezado{
+	color:ffffff;
+	background-color:#f4d000;
+	height:130px;
+	width:100%;
+}
 .MenuOff{
 	height:100%;
 	width:200px;
@@ -19,6 +28,11 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	padding-top:11px;
 	padding-bottom:11px;
 }
+.Cuerpo{
+	color:white;
+	min-height:490px;
+	max-height:100%;
+}
 .PiePagina{
 	background-color:#f4d000;
 	padding-top:5px;
@@ -29,6 +43,43 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	width:100%;
 	border-top:#f4dd42 solid 3px;
 	border-bottom:#f4dd42 solid 3px;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:30px;
 }
+.LineasSup{
+	width:100%;
+	border-top:#f4dd42 solid 3px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:30px;
+}
+.LineasInf{
+	width:100%;
+	border-bottom:#f4dd42 solid 3px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:30px;
+}
+.ContenedorCuadros{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.Cuadros{
+	padding-left:15px;
+	padding-right:15px;
+	display:inline-block;
+	width:300px;
+}
+.TituloCuadros{
+	font-size:23px;
+}
+
+.CuadrosX2{
+	padding-left:15px;
+	padding-right:15px;
+	display:inline-block;
+	width:600px;
+}
+
+
