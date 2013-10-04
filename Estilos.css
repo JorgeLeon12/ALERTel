@@ -81,7 +81,7 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	margin-bottom:30px;
 }
 .ContenedorCuadros{
-	margin-top:10px;
+	margin-top:50px;
 	margin-bottom:10px;
 }
 .Cuadros{
@@ -92,6 +92,21 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 }
 .TituloCuadros{
 	font-size:23px;
+}
+.TextBox{
+	padding:5px 15px 5px 15px;
+	font-size:20px;
+	color:#006600;
+	border-color:#f4d000;
+	border-radius:10px;
+}
+.SubmitAzulOsc{
+	padding:5px 15px 5px 15px;
+	font-size:20px;
+	color:#CCCCCC;
+	background-color:#000023;
+	border-color:#f4d000;
+	border-radius:10px;
 }
 
 .CuadrosX2{
