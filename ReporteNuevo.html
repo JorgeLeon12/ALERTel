@@ -7,7 +7,41 @@
 <link type="text/css" href="./Slider/css/skitter.styles.css" media="all" rel="stylesheet" />
 <!-- CSS -->
 <link type="text/css" href="./Slider/css/skitter.styles.css" media="all" rel="stylesheet" />
-
+<script>
+function validar(){
+	TelTx = document.getElementById("TelJs").value;
+	if(TelTx.length == 0){
+		alert("Introduce el Numero a Reportar");
+		return false;
+	}
+	
+	HechosTx = document.getElementById("HechosJs").value;
+	if(HechosTx.length == 0){
+		alert("Introduce los Hechos");
+		return false
+	}
+	
+	HoraTx = document.getElementById("HoraJs").value;
+	if(HoraTx.length == 0){
+		alert("Introduce la Hora aproximada de la llamada");
+		return false
+	}
+	
+	CiudadTx = document.getElementById("CiudadJs").value;
+	if(CiudadTx.length == 0){
+		alert("Introduce la ciudad en la que fue recibida la llamada");
+		return false
+	}
+	
+	DescropcionTx = document.getElementById("DescripcionJs").value;
+	if(DescropcionTx.length == 0){
+		alert("Introduce la Descripcion, entre mas datos proporciones, mas eficaz sera resuelto su caso");
+		return false
+	}
+	
+	return true;
+}
+</script>
 </head>
 
 <body>
@@ -40,11 +74,11 @@
                 </div>
                 <div class="LineasSup">
                 	<form action="index.html" onsubmit="return validar()">
-                        <input class="TextBox" type="text" id="Tel" name="Telefono" placeholder="Telefono a Reportar" /><br />
-                        <input class="TextBox" type="text" id="Hechos" name="Hechos" placeholder="¿Que fue lo que paso?" /><br />
-                        <input class="TextBox" type="text" id="Hora" name="Hora" placeholder="¿A que Horas paso?" /><br />
-                        <input class="TextBox" type="text" id="Ciudad" name="Ciudad" placeholder="¿En que Ciudad fue recibida la llamada?" /><br />
-                        <textarea class="TextBox" name="Descripcion" id="Descripcion" style="width:400px; height:100px;" placeholder="Da una Descripcion detallada de los hechos, incluye la mayor cantidad de datos posibles." /></textarea><br />
+                        <input class="TextBox" type="text" id="TelJs" name="Telefono" placeholder="Telefono a Reportar" /><br />
+                        <input class="TextBox" type="text" id="HechosJs" name="Hechos" placeholder="¿Que fue lo que paso?" /><br />
+                        <input class="TextBox" type="text" id="HoraJs" name="Hora" placeholder="¿A que Horas paso?" /><br />
+                        <input class="TextBox" type="text" id="CiudadJs" name="Ciudad" placeholder="¿En que Ciudad fue recibida la llamada?" /><br />
+                        <textarea class="TextBox" id="DescripcionJs" name="Descripcion" style="width:400px; height:100px;" placeholder="Da una Descripcion detallada de los hechos, incluye la mayor cantidad de datos posibles." /></textarea><br />
                         <input class="SubmitAzulOsc" type="submit" value="Enviar Reporte!" />
                     </form>
                 </div>
