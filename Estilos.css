@@ -23,6 +23,7 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 .Logos{
 	float:right;
 	margin-top:25px;
+	margin-left:10px;
 }
 .Menu{
 	background-color:#2a2a2a;
@@ -34,6 +35,8 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	width:200px;
 	display:inline-block;
 	color:#FFFFFF;
+	padding-top:11px;
+	padding-bottom:11px;
 }
 .MenuOn{
 	background-color:#f4d000;
