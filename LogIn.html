@@ -32,6 +32,21 @@
  			controls: true
 		});
 	});
+
+function validar(){
+	CorreoTexto = document.getElementById("Correo").value;
+	if(CorreoTexto.length == 0){
+		alert("Pon tu Correo");
+		return false;
+	}
+	
+	ContrasennaTexto = document.getElementById("Contra").value;
+	if(ContrasennaTexto.length == 0){
+		alert("Pon tu Contraseña");
+		return false
+	}
+	return true;
+}
 </script>
 
 </head>
@@ -82,11 +97,11 @@
                     Registro
                 </div>
                 <div class="LineasSup">
-                	<!--<form action="#" method="post">-->
-                        <input class="TextBox" type="text" name="Correo" placeholder="Correo" /><br />
-                        <input class="TextBox" type="password" name="Contra1" placeholder="Tu Contrase&ntilde;a" /><br />
-                        <input class="SubmitAzulOsc" type="submit" value="Entrar!" placeholder="" />
-                    <!--</form>-->
+                	<form action="index.html" onsubmit="return validar()">
+                        <input class="TextBox" type="text" id="Correo" name="Correo" placeholder="Correo" /><br />
+                        <input class="TextBox" type="password" id="Contra" name="Contra" placeholder="Tu Contrase&ntilde;a" /><br />
+                        <input class="SubmitAzulOsc" type="submit" value="Entrar!" />
+                    </form>
                 </div>
             </div><!--/Cuadros!-->
             <div class="ContenedorCuadros"><!--2° cuadros!-->

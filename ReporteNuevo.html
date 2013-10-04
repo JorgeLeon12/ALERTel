@@ -32,6 +32,40 @@
  			controls: true
 		});
 	});
+
+function validar(){
+	TelTx = document.getElementById("Telefono").value;
+	if(TelTx.length == 0){
+		alert("Introduce el Numero a Reportar");
+		return false;
+	}
+	
+	HechosTx = document.getElementById("Hechos").value;
+	if(HechosTx.length == 0){
+		alert("Introduce los Hechos");
+		return false
+	}
+	
+	HoraTx = document.getElementById("Hora").value;
+	if(HoraTx.length == 0){
+		alert("Introduce la Hora aproximada de la llamada");
+		return false
+	}
+	
+	CiudadTx = document.getElementById("Ciudad").value;
+	if(CiudadTx.length == 0){
+		alert("Introduce la ciudad en la que fue recibida la llamada");
+		return false
+	}
+	
+	DescropcionTx = document.getElementById("Descripcion").value;
+	if(DescripcionTx.length == 0){
+		alert("Introduce la Descripcion, entre mas datos proporciones, mas eficasz sera resuelto su caso");
+		return false
+	}
+	
+	return true;
+}
 </script>
 
 </head>
@@ -82,17 +116,14 @@
                     Registro
                 </div>
                 <div class="LineasSup">
-                	<!--<form action="#" method="post">-->
-                        <input class="TextBox" type="text" name="Telefono" placeholder="Telefono a Reportar" /><br />
-                        <input class="TextBox" type="text" name="Hechos" placeholder="¿Que fue lo que paso?" /><br />
-                        <input class="TextBox" type="text" name="Hora" placeholder="¿A que Horas paso?" /><br />
-                        <input class="TextBox" type="text" name="Ciudad" placeholder="¿En que Ciudad fue recibida la llamada?" /><br />
-                        <textarea class="TextBox" name="Descripcion" style="width:400px; height:100px;" placeholder="Da una Descripcion detallada de los hechos, incluye la mayor cantidad de datos posibles." /></textarea><br />
-                        <font style="font-size:20px; color:#006600; padding:0 50px 0 10px;">¿Esto Ocurrio el dia de hoy?</font>
-                        <input type="radio" name="Genero" value="1" /><font style="font-size:20px; color:#006600; padding:0 50px 0 10px;">Sí</font>
-                        <input type="radio" name="Genero" value="0" /><font style="font-size:20px; color:#006600; padding:0 0px 0 10px;">No</font><br />
-                        <input class="SubmitAzulOsc" type="submit" value="Enviar Reporte!" placeholder="" />
-                    <!--</form>-->
+                	<form action="index.html" onsubmit="return validar()">
+                        <input class="TextBox" type="text" id="Tel" name="Telefono" placeholder="Telefono a Reportar" /><br />
+                        <input class="TextBox" type="text" id="Hechos" name="Hechos" placeholder="¿Que fue lo que paso?" /><br />
+                        <input class="TextBox" type="text" id="Hora" name="Hora" placeholder="¿A que Horas paso?" /><br />
+                        <input class="TextBox" type="text" id="Ciudad" name="Ciudad" placeholder="¿En que Ciudad fue recibida la llamada?" /><br />
+                        <textarea class="TextBox" name="Descripcion" id="Descripcion" style="width:400px; height:100px;" placeholder="Da una Descripcion detallada de los hechos, incluye la mayor cantidad de datos posibles." /></textarea><br />
+                        <input class="SubmitAzulOsc" type="submit" value="Enviar Reporte!" />
+                    </form>
                 </div>
             </div><!--/Cuadros!-->
             <div class="ContenedorCuadros"><!--2° cuadros!-->
