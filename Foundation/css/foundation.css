@@ -29,7 +29,14 @@ EMPIEZA CODIGO DE ALERTEL!!                #########
 }
 .LineasSup{
 	width:100%;
-	border-top:#f4dd42 solid 3px;
+	border-top:#5e0daa solid 3px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:30px;
+}
+.LineasInf{
+	width:100%;
+	border-bottom:#5e0daa solid 3px;
 	padding-top:5px;
 	padding-bottom:5px;
 	margin-bottom:30px;
@@ -1120,7 +1127,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #410778;
+  color: #5c10a5;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
