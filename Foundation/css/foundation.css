@@ -1,3 +1,46 @@
+/*
+###############################################################
+###########################################################
+########################################################
+EMPIEZA CODIGO DE ALERTEL!!                #########
+################################################
+*/.MenuOn{
+	display:inline-block;
+	border-top:solid #0000ff 3px;
+	border-bottom:solid #000053 3px;
+	border-left:solid #04049d 3px;
+	border-right:solid #00004e 3px;
+	padding-bottom:15px;
+	padding-top:15px;
+	width:24.6%;
+	background-color:#8f26f2;
+}
+.MenuOff{
+	display:inline-block;
+	border-top:solid #0000ff 3px;
+	border-bottom:solid #000053 3px;
+	border-left:solid #04049d 3px;
+	border-right:solid #00004e 3px;
+	padding-bottom:15px;
+	padding-top:15px;
+	height:100%;
+	width:24.6%;
+	background-color:#666666;
+}
+.LineasSup{
+	width:100%;
+	border-top:#f4dd42 solid 3px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:30px;
+}
+/*
+###############################################################
+###########################################################
+########################################################
+EMPIEZA CODIGO DE FOUNDATION!!             #########
+################################################
+*/
 meta.foundation-mq-small {
   font-family: "only screen and (min-width: 768px)";
   width: 768px; }
