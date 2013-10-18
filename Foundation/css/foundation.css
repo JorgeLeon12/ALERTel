@@ -22,7 +22,6 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -31,7 +30,8 @@ body {
   font-style: normal;
   line-height: 1;
   position: relative;
-  cursor: default; }
+  cursor: default; 
+}
 
 a:hover {
   cursor: pointer; }
@@ -95,6 +95,7 @@ select {
 /* Grid HTML Classes */
 .row {
   width: 100%;
+  background-color:#000000;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
