@@ -220,6 +220,13 @@ select {
     padding-left: 0em;   /* Bordes de los menú comprimidos*/
     padding-right: 0em;
     float: left; }
+	
+  .columns-1 {
+	position: relative;
+    padding-left: 0.50em;   /* Bordes de los menú comprimidos*/
+    padding-right: 0.50em;
+    float: left;
+  }
 
   .small-1 {
     //position: relative;
